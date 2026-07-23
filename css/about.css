@@ -1,0 +1,138 @@
+/* For about page only */
+
+.story-section {
+    background-color: #ffffff;
+    padding: 72px 28px;
+}
+
+.story-container {
+    align-items: center;
+    display: flex;
+    gap: 65px;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.story-image,
+.story-content {
+    width: 50%;
+}
+
+.story-image img,
+.ingredients-image img {
+    border-radius: 8px;
+    height: 330px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.story-content h2,
+.ingredients-content h2,
+.values-container h2 {
+    font-size: 31px;
+    margin-bottom: 18px;
+}
+
+.story-content > p:not(.section-label) {
+    color: #626270;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.small-button {
+    font-size: 13px;
+    margin-top: 8px;
+    padding: 9px 20px;
+}
+
+.values-section {
+    background-color: #ededf4;
+    padding: 68px 28px 76px;
+}
+
+.values-container {
+    margin: 0 auto;
+    max-width: 1080px;
+    text-align: center;
+}
+
+.values-grid {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.value-card {
+    background-color: #ffffff;
+    border: 1px solid #dedee7;
+    border-radius: 9px;
+    padding: 28px 24px;
+    text-align: left;
+}
+
+.value-card h3{
+    padding-bottom: 15px;
+}
+
+
+.ingredients-section {
+    background-color: #ffffff;
+    padding: 72px 28px;
+}
+
+.ingredients-container {
+    align-items: center;
+    display: flex;
+    gap: 70px;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.ingredients-content,
+.ingredients-image {
+    width: 50%;
+}
+
+.ingredients-list {
+    list-style: none;
+}
+
+.ingredients-list li {
+    margin-bottom: 16px;
+    padding-left: 23px;
+    position: relative;
+}
+
+.statistics-section {
+    background: linear-gradient(100deg, #a20021, #f3752b);
+    color: #ffffff;
+    padding: 35px 25px;
+}
+
+.statistics-container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+@media(max-width: 900px) {
+    .story-container,
+    .ingredients-container {
+        flex-direction: column;
+    }
+
+    .story-image,
+    .story-content,
+    .ingredients-content,
+    .ingredients-image {
+        width: 100%;
+    }
+
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
