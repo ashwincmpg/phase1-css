@@ -1,0 +1,7 @@
+/* Shared styles for every page footer and header mainly */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
