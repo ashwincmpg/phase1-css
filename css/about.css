@@ -16,6 +16,7 @@
 .story-image,
 .story-content {
     width: 50%;
+    transition: transform 0.3s ease;
 }
 
 .story-image img,
@@ -37,6 +38,14 @@
     color: #626270;
     font-size: 14px;
     margin-bottom: 14px;
+}
+
+.story-image:hover {
+    transform: scale(1.03);
+}
+
+.story-content:hover {
+    transform: translateY(-5px);
 }
 
 .small-button {
