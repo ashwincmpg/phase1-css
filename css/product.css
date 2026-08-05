@@ -19,6 +19,17 @@
     width: 100%;
 }
 
+.product-image {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
+
 .product-badge {
     background-color: #f3752b;
     border-radius: 12px;
