@@ -24,6 +24,12 @@
     border: 1px solid #dbdbe5;
     border-radius: 10px;
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pizza-card:hover { 
+    transform: translateY(-6px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
 }
 
 .pizza-image-container {
