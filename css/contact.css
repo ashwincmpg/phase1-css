@@ -19,6 +19,20 @@
     gap: 18px;
     margin-bottom: 14px;
     padding: 17px 18px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.contact-form-section {
+    transition: box-shadow 0.3s ease;
+}
+
+.contact-form-section:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .contact-icon {

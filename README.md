@@ -1,16 +1,42 @@
-PHASE ONE CSS - DOMINOS PIZZA WEBSITE 
+PHASE TWO CSS - DOMINOS PIZZA WEBSITE 
 
-This is a simple pizza restaurant website created for my CSS phase one project. 
-Customers can view the homepage, learn about the restaurant, see the pizza menu, view product pages and contact the restaurant.
-It include pages such as Homepage,About,Contact,Shop and 3 Product pages.
+This project is a responsive multi-page pizza restaurant website created for the Interface Design Using CSS main project.
+The website allows customers to view the homepage, learn about the restaurant, browse the pizza menu,
+view individual pizza product pages, and contact the restaurant.
 
 TECHNOLOGIES USED :
 
   * HTML
   * CSS
   * VISUAL STUDIO CODE
+  * GITHUB
   * GITHUB DESKSTOP
   * UXPILOT.AI FOR WIREFRAME
+
+WEBSITE PAGES :
+  * Home
+  * About
+  * Shop
+  * Contact
+  *  Margherita Classic Product Page
+  *  Pepperoni Feast Product Page
+  *  BBQ Chicken Product Page
+
+MAIN FEATURES : 
+
+  * Consistent header, navigation, and footer
+  * Responsive page layouts
+  * Homepage call-to-action buttons
+  * Pizza menu with three products
+  * Separate product page for each pizza
+  * Contact information and contact form
+  * Hover effects on buttons, cards, images, and form sections
+  * Consistent warm red, orange, and pink analogous color scheme and Google Fonts
+  * Homepage wireframe
+
+WIRE FRAME :
+
+  The homepage wireframe is available here: "wireframe/index-wireframe.png"
 
 SETUP INSTRUCTIONS :
 
@@ -19,4 +45,4 @@ SETUP INSTRUCTIONS :
 3. Browse through different pages.
 
 Live Website : 
-https://lamp.computerstudi.es/~Ashwin200653487/phase1-css/
+https://lamp.computerstudi.es/~Ashwin200653487/phase2-css/

@@ -16,6 +16,7 @@
 .story-image,
 .story-content {
     width: 50%;
+    transition: transform 0.3s ease;
 }
 
 .story-image img,
@@ -37,6 +38,14 @@
     color: #626270;
     font-size: 14px;
     margin-bottom: 14px;
+}
+
+.story-image:hover {
+    transform: scale(1.1);
+}
+
+.story-content:hover {
+    transform: scale(1.1);
 }
 
 .small-button {
@@ -68,12 +77,16 @@
     border-radius: 9px;
     padding: 28px 24px;
     text-align: left;
+    transition: box-shadow 0.3s ease;
 }
 
 .value-card h3{
     padding-bottom: 15px;
 }
 
+.value-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
 
 .ingredients-section {
     background-color: #ffffff;
@@ -91,6 +104,15 @@
 .ingredients-content,
 .ingredients-image {
     width: 50%;
+    transition: transform 0.3s ease;
+}
+
+.ingredients-content:hover {
+    transform: scale(1.1);
+}
+
+.ingredients-image:hover {
+    transform: scale(1.1);
 }
 
 .ingredients-list {

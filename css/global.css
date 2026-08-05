@@ -229,7 +229,7 @@ textarea {
     gap: 70px;
     grid-template-columns: 1fr 0.8fr 1fr;
     margin: 0 auto;
-    max-width: px;
+    max-width: 1180px;
     padding-bottom: 45px;
 }
 
