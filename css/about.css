@@ -41,11 +41,11 @@
 }
 
 .story-image:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .story-content:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .small-button {
