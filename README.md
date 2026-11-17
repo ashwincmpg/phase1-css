@@ -46,3 +46,4 @@ SETUP INSTRUCTIONS :
 
 Live Website : 
 https://lamp.computerstudi.es/~Ashwin200653487/phase2-css/
+https://ashwincmpg.github.io/phase1-css/
